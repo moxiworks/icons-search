@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?c179r2');
-  src:  url('fonts/icomoon.eot?c179r2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?c179r2') format('truetype'),
-    url('fonts/icomoon.woff?c179r2') format('woff'),
-    url('fonts/icomoon.svg?c179r2#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?qknjmf');
+  src:  url('fonts/icomoon.eot?qknjmf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qknjmf') format('truetype'),
+    url('fonts/icomoon.woff?qknjmf') format('woff'),
+    url('fonts/icomoon.svg?qknjmf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ico-email:before {
+  content: "\e90e";
+}
+.icon-ico-bath:before {
+  content: "\e90f";
+}
+.icon-ico-bed:before {
+  content: "\e910";
+}
+.icon-ico-close:before {
+  content: "\e911";
+}
+.icon-ico-drivetime:before {
+  content: "\e912";
+}
+.icon-ico-school:before {
+  content: "\e913";
+}
 .icon-ico-house:before {
   content: "\e90a";
 }
